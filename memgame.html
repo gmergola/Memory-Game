@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memgame.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Homemade+Apple&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <Header>
+        <div id= "name-of-game">
+            Match the Paint
+        </div>
+        <div id= "play-div">
+            <a id= "play-game" href="#the-game">Play the game</a>
+        </div>
+    </Header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id= "the-game">
+        <h1 id= "title">Click to find the matching colors</h1>
+        <div id= "counter">
+            <div id = "cards-clicked">Cards clicked = </div>
+            <div id= "count">0</div>
+        </div>
+        <div id= "table">
+            <table id= "game" align= "center">
+                <tbody>
+                    <tr>
+                        <td class= "pic"><img class= "yellow" id="ye"  src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "teal" id="te" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "orange" id="or" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "green" id="gr" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "purple" id="pu" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class = "red" id="re" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class= "pic"><img class= "red" id="redd" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "purple" id="pur" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "yellow" id="yel" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "orange" id="ora" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "teal" id="tea" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                        <td class= "pic"><img class= "green" id="gre" src="https://render.fineartamerica.com/images/rendered/default/poster/8.000/8.000/break/images/artworkimages/medium/2/white-paint-splash-on-black-background-biwa-studio.jpg" width= "150" height= "150"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div id= "new-game">
+            <input type="button" value= "Start a New Game" id= "start-new-game">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <script src="memgame.js"></script>
+</body>
+</html>
+
