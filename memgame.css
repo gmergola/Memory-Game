@@ -1,0 +1,89 @@
+
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#name-of-game{
+    font-size: 70px;
+    padding: 150px;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+}
+
+#play-game{
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color:white;
+    font-size: 60px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: 'Homemade Apple', cursive;
+    transition: background-color .5s, color .5s linear, border-radius 2s ease-out, width .5s ease-out;
+}
+
+#play-game:hover{
+    background-color: white;
+    color: black;
+    width: 600px;
+    border-radius: 40px;
+}
+
+#play-div{
+    line-height: -1000px;
+}
+
+#title{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    -webkit-text-stroke: .000000000000001px white;
+}
+#counter{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+}
+
+#cards-clicked{
+    display: inline-block;
+}
+#count{
+    display: inline-block;
+}
+
+#start-new-game{
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: 'Rock Salt', cursive;
+    transition: background-color .5s, color .5s linear, border-radius .5s ease-out, width .5s ease-out;
+}
+
+#start-new-game:hover{
+    background-color: black;
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+}
