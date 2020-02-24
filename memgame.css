@@ -71,19 +71,11 @@ body{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 500px;
     background-color:white;
     color: black;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 40px;
+    padding: 25px;
     border-radius: 50px;
     font-family: 'Rock Salt', cursive;
-    transition: background-color .5s, color .5s linear, border-radius .5s ease-out, width .5s ease-out;
-}
-
-#start-new-game:hover{
-    background-color: black;
-    color: white;
-    width: 400px;
-    border-radius: 10px;
 }
