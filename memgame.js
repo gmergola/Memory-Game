@@ -6,7 +6,7 @@ var sCardFlipped = '';
 var matched = [];
 var clicked = 0;
 
-// keeping track of how many card have been clicked 
+// keeping track of how many cards have been clicked 
 for(let i = 0; i < pic.length; i++){
 	pic[i].addEventListener("click", function(){
 		count.innerText++;
@@ -14,7 +14,8 @@ for(let i = 0; i < pic.length; i++){
 }
 
 
-// adding in the second picture to match
+// adding in pcitures to be matched
+
 var yellow = document.getElementsByClassName("yellow");
 for(let i = 0; i < yellow.length; i++){
 	yellow[i].classList.add("backImage");
@@ -106,7 +107,6 @@ for(let i = 0; i < backImages.length; i++){
 	backImages[i].addEventListener("click", function(){
 		if(cardFlipped.src === sCardFlipped.src && cardFlipped.id !== sCardFlipped.id && !matched.includes(backImages[i].src)){
 			matched.push(backImages[i].src);
-			console.log(matched);
 		}
 		setTimeout(function(){ 
 			if(!matched.includes(backImages[i].src)){
@@ -116,7 +116,7 @@ for(let i = 0; i < backImages.length; i++){
 	});
 }
 
-//making start new game button once game is finished
+// creating start new game button once game is finished
 var game = document.getElementById("game");
 var startOver = document.createElement('a');
 startOver.id = "start-new-game";
@@ -139,7 +139,4 @@ startOver.addEventListener("click", function(){
 });	
 
 
-//bugs 
-// can flip over a lot even though they always flip back after one second
-// they flip one at a time
 
